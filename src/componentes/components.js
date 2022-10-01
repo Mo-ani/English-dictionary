@@ -7,16 +7,7 @@ const divPronunciacion = document.querySelector('.pronunciacion');
 const btnBusqueda = document.querySelector('.icon');
 
 
-const eventos = () =>{
-
-    btnBusqueda.addEventListener( 'click', async() => {
-        if( !busqueda.classList.contains( 'active' ) ){
-            busqueda.classList.add( 'active' );
-        }else{
-            busqueda.classList.remove( 'active' );
-        }
-        
-    });
+const eventos = () =>{  
 
     busqueda.addEventListener( 'keyup', async(evento) => {
             // divDefinicion.classList.remove( 'active' );
