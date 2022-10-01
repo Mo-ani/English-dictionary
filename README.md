@@ -2,7 +2,8 @@
 
 A dictionary with its pronunciation.
 
-+ Technologies:
+Technologies:
+
 + JavaScript
 + html
 + css
